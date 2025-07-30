@@ -27,8 +27,11 @@ kotlin {
     iosArm64()
     iosSimulatorArm64()
 
+    /**
+     * To generate the podspec file for the library, run: ./gradlew :sharedWidgets:podspec
+     */
     cocoapods {
-        summary = "This is a Kotlin Multiplatform widget library"
+        summary = "This is a shared widget library for Kotlin Multiplatform"
         homepage = "Link to the Shared Module homepage"
         version = "1.0"
         ios.deploymentTarget = "15.0"

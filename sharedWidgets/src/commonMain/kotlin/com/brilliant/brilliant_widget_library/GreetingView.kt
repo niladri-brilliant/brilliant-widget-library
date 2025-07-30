@@ -5,5 +5,5 @@ import androidx.compose.material.Text
 
 @Composable
 public fun GreetingView(name: String) {
-    Text("Howdy, $name!")
+    Text("Hola, $name!")
 }

@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
-    spec.summary                  = 'This is a Kotlin Multiplatform widget library'
+    spec.summary                  = 'This is a shared widget library for Kotlin Multiplatform'
     spec.vendored_frameworks      = 'build/cocoapods/framework/sharedWidgets.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '15.0'
